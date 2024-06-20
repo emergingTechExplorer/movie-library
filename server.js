@@ -8,8 +8,9 @@ app.set("view engine", "ejs");
 app.set("views", __dirname + "/views");
 // every single file will be inside this so that we dont have to duplicate beginning/ end HTML (header, footer)
 app.set('layout', 'layouts/layout');
+app.use(expressLayouts);
 // stylesheets, javascript and images will be inside public folder
-app.set(express.static("public"));
+app.use(express.static("public"));
 
 app.use("/", indexRouter);
 
