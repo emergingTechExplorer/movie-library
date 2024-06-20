@@ -25,4 +25,8 @@ db.once("open", () => console.log("Connected to Mongoose"));
 app.use("/", indexRouter);
 
 // process.env.PORT will pull the port from an environment variable when we deploy into a server
-app.listen(process.env.PORT || 3000);
+const port = process.env.PORT || 3000
+
+app.listen(port, () => {
+    console.log(`Example app listening at http://localhost:${port}`)
+})
