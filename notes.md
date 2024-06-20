@@ -7,3 +7,5 @@ controllers and routes are the same thing
 index route is for when we don't have any resource or model in the URL
 
 layout.ejs will have boilerplate HTML for every page of the application
+
+dotenv library will allow us to load environment variables into the application
