@@ -1,0 +1,11 @@
+<h2>New Author</h2>
+
+<!-- action is the URL the form goes to -->
+<!-- POST request can be only done using forms -->
+<!-- here anchor tag is used because we need to link to page 
+rather than interact with forms or other objects -->
+<form action="/authors" method="POST">
+  <%- include('_form_fields') %>
+  <a href="/authors">Cancel</a>
+  <button type="submit">Create</button>
+</form>

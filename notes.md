@@ -9,3 +9,11 @@ index route is for when we don't have any resource or model in the URL
 layout.ejs will have boilerplate HTML for every page of the application
 
 dotenv library will allow us to load environment variables into the application
+
+partials folder will contain all the template files that aren't related to routes. They are just partials that we include into our other files. It allows you to import these small files into other files so that you don't need to duplicate the code
+
+In mongodb or nosql libraries, a schema is equal to a table in normal sql database
+
+form inputs will be shared between both new file and edit file. So we need to create a new partial named _form_fields.ejs inside views/authors. The reason we use "_" because it is a partial file but not a file thats been rendered from the server.
+
+express does not have an easy way to access variables such as author. so we install a library called body-parser
