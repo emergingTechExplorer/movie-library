@@ -25,5 +25,3 @@ everything in mongoose and mongodb is done asynchronously, so we need to use awa
 <% in errorMessage.ejs will make sure it will not output to HTML, but only run on server
 
 Author model from mongoose has a ton of different functionality. You can find certain authors, create, update authors
-
-Adding new content
