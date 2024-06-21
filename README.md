@@ -14,7 +14,7 @@
 DATABASE_URL=mongodb://localhost/mybrary
 ```
 
-2. Execute the following.
+3. Execute the following.
 
 ```sh
 git clone https://github.com/lakbot/movie-library
